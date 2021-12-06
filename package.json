@@ -1,22 +1,24 @@
 {
-  "name": "2021-05-bepsdef",
+  "name": "node.js-assignement",
   "version": "1.0.0",
-  "description": "npm initialising",
-  "main": "index.js",
+  "description": "assignement project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "author": "",
+  "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drawwithcode/2021-05-Bepsdef.git"
+    "url": "git+https://github.com/Bepsdef/node.js-assignement.git"
   },
-  "author": "Giuseppe Defilippis",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/drawwithcode/2021-05-Bepsdef/issues"
+    "url": "https://github.com/Bepsdef/node.js-assignement/issues"
   },
-  "homepage": "https://github.com/drawwithcode/2021-05-Bepsdef#readme",
+  "homepage": "https://github.com/Bepsdef/node.js-assignement#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
   }
 }
